@@ -6,6 +6,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://wenlu-w.github.io/css/main.css">
 	  <link rel="canonical" href="https://wenlu-w.github.io/projects">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,56 +16,33 @@
 	  </head>
 		<body>
 		  <div class="w3-content w3-margin-top" style="max-width:1400px;">
-	<!--
-	   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-
-	    <a class="navbar-brand" href="https://ramyaboggaram.github.io.">Ramya Boggaram</a>
-		</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse-1">
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="https://ramyaboggaram.github.io/">Home</a></li>
-			<li><a href="https://ramyaboggaram.github.io/projects">Projects</a></li>
-			<li><a href="https://ramyaboggaram.github.io/Experience">Experience</a></li>
-			<li><a href="https://ramyaboggaram.github.io/Current Work">Current Work</a></li>			
-		  </ul>
-		</div>
-	  </div>
-	</div>
-	-->
 			  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true" onclick="toggleNavbar()">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 	    <a class="navbar-brand" href="https://ramyaboggaram.github.io/Current Work">Current Work</a>
-		</div>
-		<div class="navbar-collapse collapse in" id="navbar-collapse-1" aria-expanded="false" style="">
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="https://ramyaboggaram.github.io/">Home</a></li>
-			<li><a href="https://ramyaboggaram.github.io/projects">Projects</a></li>
-			<li><a href="https://ramyaboggaram.github.io/Experience">Experience</a></li>
-			<li><a href="https://ramyaboggaram.github.io/Current Work">Current Work</a></li>			
-		  </ul>
-		</div>
-	  </div>
-	</div>
-<div class="container-fluid">
-      <div class="row">
-        <div id="textid" class="col-sm-12">
-<ul>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://ramyaboggaram.github.io/">Home</a></li>
+        <li><a href="https://ramyaboggaram.github.io/projects">Projects</a></li>
+        <li><a href="https://ramyaboggaram.github.io/Experience">Experience</a></li>
+        <li><a href="https://ramyaboggaram.github.io/Current Work">Current Work</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+			  <script>
+function toggleNavbar() {
+  var navbarCollapse = document.getElementById("navbar-collapse-1");
+  navbarCollapse.classList.toggle("in");
+}
+			  </script>
                   
 <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-xxlarge w3-text-teal">Current Work</i></h2>
